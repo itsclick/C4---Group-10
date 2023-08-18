@@ -1,4 +1,4 @@
-# Project Title
+# Landing Page
 
 One Paragraph of the project description
 
@@ -52,7 +52,11 @@ Checks if the best practices and the right coding style has been used.
 
 ## Deployment
 
-Add additional notes to deploy this on a live system
+This project will be deployed to
+
+- github pages
+- vercel
+- netlify
 
 ## Built With
 
@@ -60,11 +64,6 @@ Add additional notes to deploy this on a live system
   for the Code of Conduct
 - [Creative Commons](https://creativecommons.org/) - Used to choose
   the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -75,15 +74,11 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 ## Authors
 
 - **Samuel Hunpevi**
-  [PurpleBooth](https://github.com/PurpleBooth)
+  [Samuel Hunpevi](https://github.com/itsclick)
 - **Kwame Adarkwa-Yiadom**
   [PurpleBooth](https://github.com/PurpleBooth)
 - **Daniel Selase Anyidoho**
-  [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+  [Selase](https://github.com/dsa30)
 
 ## License
 
@@ -93,6 +88,7 @@ details
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc
+- Azubi African for providing the prototype template
+- Samuel
+- Kwame and,
+- Selase
