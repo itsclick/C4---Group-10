@@ -26,10 +26,10 @@ open with live-server
 
 Requirements for building this project
 
-- [Figma]
-- [HTML]
-- [CSS]
-- [Git/Github]
+- Figma
+- HTML
+- CSS
+- Git/Github
 
 ## Deployment
 
@@ -41,9 +41,9 @@ This project will be deployed to
 
 ## Built With
 
-- [HTML]
-- [CSS]
-- [JavaScript]
+- HTML
+- CSS
+- JavaScript
 
 ## Authors
 
