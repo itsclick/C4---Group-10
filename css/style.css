@@ -59,11 +59,11 @@ ul li a {
 .hero-content {
   width: 100%;
   justify-content: center;
-  padding: 315px 0;
+  padding: 215px 0;
 }
 .hero-text {
   background-color: rgba(255, 255, 255, 0.83);
-  width: 521px;
+  width: 571px;
   padding: 70px;
   text-align: center;
 }
@@ -87,6 +87,43 @@ ul li a {
   color: #000;
 }
 
+/* Furniture and Basket collection section */
+.furniture-basket-content {
+  display: grid;
+  margin: 53px 0;
+  gap: 21px;
+}
+
+.collection-img {
+  width: 100%;
+  height: auto;
+}
+
+.furniture,
+.basket {
+  position: relative;
+}
+
+.collection-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.collection-content h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.collection-btn,
+.collection-btn:link,
+.collection-btn:active {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
 /* Responsive Mobile Navigation */
 @media (max-width: 745px) {
   .navigation-list {
@@ -103,5 +140,24 @@ ul li a {
 @media (min-width: 577px) {
   .collection {
     display: inline;
+  }
+
+  .collection-content {
+    top: 20%;
+    left: 10%;
+  }
+
+  .collection-content h4 {
+    font-size: 25px;
+  }
+
+  .furniture-basket-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .collection-btn,
+  .collection-btn:link,
+  .collection-btn:active {
+    font-size: 20px;
   }
 }
