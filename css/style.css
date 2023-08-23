@@ -1,0 +1,24 @@
+/* Fonts */
+/* Poppins and Dosis */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Inter:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Main text fonts */
+  font-family: "Poppins", sans-serif;
+  /* Button text font */
+  /* font-family: "Dosis", sans-serif; */
+}
+
+/* fuild container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fff;
+}
