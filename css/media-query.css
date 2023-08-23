@@ -1,0 +1,19 @@
+ /* Device type: Destop and larger screens
+ Description: For desktop size and larger screen
+ */
+
+@media (min-width: 995px) and (max-width: 1280px) {
+    
+   
+    
+  }
+  
+   /* Device type: Moble and Tablets
+ Description: For Mobile and tables screen
+ */
+
+  @media (min-width: 356px) and (max-width: 994px) {
+    
+
+    
+  }
