@@ -41,20 +41,67 @@ ul li a {
 
 /* Header styles */
 .header {
-  background: linear-gradient(0deg, rgba(7, 7, 7, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(0deg, rgba(7, 7, 7, 0.5), rgba(0, 0, 0, 0.5)),
     url(/assets/hero.jpg);
   background-position: center center;
   background-size: cover;
-  height: 90vh;
 }
 
 .navigation-items {
   gap: 27px;
 }
 
+.icons {
+  gap: 10px;
+  cursor: pointer;
+}
+
+.hero-content {
+  width: 100%;
+  justify-content: center;
+  padding: 315px 0;
+}
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.83);
+  width: 521px;
+  padding: 70px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.collection {
+  display: block;
+}
+
+.link-btn,
+.link-btn:link,
+.link-btn:active {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
 /* Responsive Mobile Navigation */
 @media (max-width: 745px) {
   .navigation-list {
     display: none;
+  }
+}
+
+@media (min-width: 375px) {
+  .hero-text h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 577px) {
+  .collection {
+    display: inline;
   }
 }
