@@ -1,19 +1,38 @@
- /* Device type: Destop and larger screens
+/* Device type: Destop and larger screens
  Description: For desktop size and larger screen
  */
 
 @media (min-width: 995px) and (max-width: 1280px) {
-    
-   
-    
+  .collection {
+    display: inline;
   }
-  
-   /* Device type: Moble and Tablets
+
+  .collection-content {
+    top: 20%;
+    left: 10%;
+  }
+
+  .collection-content h4 {
+    font-size: 25px;
+  }
+
+  .furniture-basket-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .collection-btn,
+  .collection-btn:link,
+  .collection-btn:active {
+    font-size: 20px;
+  }
+}
+
+/* Device type: Moble and Tablets
  Description: For Mobile and tables screen
  */
 
-  @media (min-width: 356px) and (max-width: 994px) {
-    
-
-    
+@media (min-width: 356px) and (max-width: 994px) {
+  .hero-text h1 {
+    font-size: 25px;
   }
+}
