@@ -125,6 +125,22 @@ ul li a {
   color: #000;
 }
 
+/* styles for best-product section */
+.best-products .container .product-items .group-one .flexy,
+.group-two-container .flexy  {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.pr1,.pr2,.pr3,.pr4,.pr5,.pr6  ,.pr7,.pr8 {
+  position: relative;
+}
+
+.pr1 > p {
+  position: absolute;
+}
+
 /* Responsive Mobile Navigation */
 @media (max-width: 745px) {
   .navigation-list {
@@ -162,3 +178,7 @@ ul li a {
     font-size: 20px;
   }
 }
+
+
+
+ 
