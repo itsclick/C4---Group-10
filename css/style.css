@@ -329,5 +329,29 @@ ul li a {
 
 
 
+.products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+  .products_item:not(last-child){
+    margin-right: 12px;
+  }
+  .pname{
+    position: relative;
+    bottom: 150px;
+    color: #fff;
+    text-align: center;
+    font-family: poppins;
+  }
+  .price{
+    position: relative;
+    bottom: 150px;
+    padding-left: 25px;
+    color: #fff;
+    text-align: center;
+  }
 
  
